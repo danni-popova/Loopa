@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication21;
+package loopa;
 
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -72,28 +72,28 @@ public class LoopaInterface extends javax.swing.JFrame {
         navigationPanel.setBackground(new java.awt.Color(255, 255, 255));
         navigationPanel.setPreferredSize(new java.awt.Dimension(1200, 150));
 
-        homeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/home.PNG"))); // NOI18N
+        homeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/home.PNG"))); // NOI18N
         homeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 homeButtonActionPerformed(evt);
             }
         });
 
-        searchButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/search.PNG"))); // NOI18N
+        searchButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/search.PNG"))); // NOI18N
         searchButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 searchButtonActionPerformed(evt);
             }
         });
 
-        advSettingsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/advanancedSettingsButton.png"))); // NOI18N
+        advSettingsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/advanancedSettingsButton.png"))); // NOI18N
         advSettingsButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 advSettingsButtonActionPerformed(evt);
             }
         });
 
-        exitButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/exit.PNG"))); // NOI18N
+        exitButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/exit.PNG"))); // NOI18N
         exitButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 exitButtonActionPerformed(evt);

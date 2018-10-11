@@ -74,7 +74,7 @@
         <Component class="javax.swing.JButton" name="homeButton">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/javaapplication21/graphics/home.PNG"/>
+              <Image iconType="3" name="/loopa/graphics/home.PNG"/>
             </Property>
           </Properties>
           <Events>
@@ -84,7 +84,7 @@
         <Component class="javax.swing.JButton" name="searchButton">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/javaapplication21/graphics/search.PNG"/>
+              <Image iconType="3" name="/loopa/graphics/search.PNG"/>
             </Property>
           </Properties>
           <Events>
@@ -94,7 +94,7 @@
         <Component class="javax.swing.JButton" name="advSettingsButton">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/javaapplication21/graphics/advanancedSettingsButton.png"/>
+              <Image iconType="3" name="/loopa/graphics/advanancedSettingsButton.png"/>
             </Property>
           </Properties>
           <Events>
@@ -104,7 +104,7 @@
         <Component class="javax.swing.JButton" name="exitButton">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/javaapplication21/graphics/exit.PNG"/>
+              <Image iconType="3" name="/loopa/graphics/exit.PNG"/>
             </Property>
           </Properties>
           <Events>

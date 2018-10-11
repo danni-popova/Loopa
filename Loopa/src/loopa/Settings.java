@@ -1,5 +1,5 @@
 
-package javaapplication21;
+package loopa;
 
 public class Settings {
 

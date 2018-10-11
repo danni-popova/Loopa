@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication21;
+package loopa;
 
 import java.io.File;
 import java.io.IOException;
@@ -70,14 +70,14 @@ public class SearchPanel extends javax.swing.JPanel {
             }
         });
 
-        querySearchButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/search1.png"))); // NOI18N
+        querySearchButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/search1.png"))); // NOI18N
         querySearchButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 querySearchButtonActionPerformed(evt);
             }
         });
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/tinyLogo.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/tinyLogo.png"))); // NOI18N
 
         resultsPanel.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -137,7 +137,7 @@ public class SearchPanel extends javax.swing.JPanel {
         jLabel8.setText("The University is committed to fair admissions and to recognising cultural and social diversity and the importance of academic  and other achievements in preparing students to study...");
 
         prev.setBackground(java.awt.Color.white);
-        prev.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/left.png"))); // NOI18N
+        prev.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/left.png"))); // NOI18N
         prev.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 prevActionPerformed(evt);
@@ -145,7 +145,7 @@ public class SearchPanel extends javax.swing.JPanel {
         });
 
         next.setBackground(java.awt.Color.white);
-        next.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/right.png"))); // NOI18N
+        next.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/right.png"))); // NOI18N
         next.setToolTipText("");
         next.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -218,18 +218,18 @@ public class SearchPanel extends javax.swing.JPanel {
         );
 
         clearButton.setBackground(new java.awt.Color(255, 255, 255));
-        clearButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/clearButton.png"))); // NOI18N
+        clearButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/clearButton.png"))); // NOI18N
         clearButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 clearButtonActionPerformed(evt);
             }
         });
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/queryQuestion1.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/queryQuestion1.png"))); // NOI18N
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/results.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/results.png"))); // NOI18N
 
-        noresultsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/noresults2.png"))); // NOI18N
+        noresultsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/noresults2.png"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -279,7 +279,7 @@ public class SearchPanel extends javax.swing.JPanel {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLabel2))
                             .addComponent(noresultsLabel)))
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE))
                 .addGap(22, 22, 22)
                 .addComponent(resultsPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );

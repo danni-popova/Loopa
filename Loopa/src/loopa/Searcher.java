@@ -1,5 +1,5 @@
 
-package javaapplication21;
+package loopa;
 
 import java.util.ArrayList;
 import java.util.Arrays;

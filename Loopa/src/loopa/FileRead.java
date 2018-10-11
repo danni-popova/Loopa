@@ -1,5 +1,5 @@
 
-package javaapplication21;
+package loopa;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

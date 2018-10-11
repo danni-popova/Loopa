@@ -101,28 +101,28 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/javaapplication21/graphics/makingCollectionInfo.png"/>
+          <Image iconType="3" name="/loopa/graphics/makingCollectionInfo.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/javaapplication21/graphics/checkingWebsites.png"/>
+          <Image iconType="3" name="/loopa/graphics/checkingWebsites.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/javaapplication21/graphics/categoriesInfo.png"/>
+          <Image iconType="3" name="/loopa/graphics/categoriesInfo.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/javaapplication21/graphics/numbersStopWordsInfo.png"/>
+          <Image iconType="3" name="/loopa/graphics/numbersStopWordsInfo.png"/>
         </Property>
       </Properties>
     </Component>
@@ -132,21 +132,21 @@
           <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/javaapplication21/graphics/cat3.png"/>
+          <Image iconType="3" name="/loopa/graphics/cat3.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/javaapplication21/graphics/learnMore.png"/>
+          <Image iconType="3" name="/loopa/graphics/learnMore.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/javaapplication21/graphics/aboutLoopa.png"/>
+          <Image iconType="3" name="/loopa/graphics/aboutLoopa.png"/>
         </Property>
       </Properties>
       <Events>
