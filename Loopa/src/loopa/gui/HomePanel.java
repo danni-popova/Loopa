@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication21;
+package loopa.gui;
+
+import loopa.Loopa;
 
 /**
  *
@@ -25,7 +27,8 @@ public class HomePanel extends javax.swing.JPanel {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents()
+    {
 
         jLabel2 = new javax.swing.JLabel();
         aboutButton = new javax.swing.JButton();
@@ -38,8 +41,10 @@ public class HomePanel extends javax.swing.JPanel {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/Logo.PNG"))); // NOI18N
 
         aboutButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/aboutLoopa.png"))); // NOI18N
-        aboutButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        aboutButton.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 aboutButtonActionPerformed(evt);
             }
         });
@@ -86,7 +91,7 @@ public class HomePanel extends javax.swing.JPanel {
 
     private void aboutButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aboutButtonActionPerformed
 
-NewLoopa.openWebpage("https://drive.google.com/drive/folders/0B6qRs1HbJBrdaHctQzFJZndxYU0?usp=sharing");
+Loopa.openWebpage("https://drive.google.com/drive/folders/0B6qRs1HbJBrdaHctQzFJZndxYU0?usp=sharing");
         // TODO add your handling code here:
     }//GEN-LAST:event_aboutButtonActionPerformed
 

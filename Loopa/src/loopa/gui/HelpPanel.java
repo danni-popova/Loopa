@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication21;
+package loopa.gui;
+
+import loopa.Loopa;
 
 /**
  *
@@ -25,7 +27,8 @@ public class HelpPanel extends javax.swing.JPanel {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents()
+    {
 
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -54,8 +57,10 @@ public class HelpPanel extends javax.swing.JPanel {
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/learnMore.png"))); // NOI18N
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/aboutLoopa.png"))); // NOI18N
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jButton1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 jButton1ActionPerformed(evt);
             }
         });
@@ -115,7 +120,7 @@ public class HelpPanel extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-NewLoopa.openWebpage("https://drive.google.com/file/d/0B6qRs1HbJBrdR2JWNU9BZ3VaNlE/view?usp=sharing");        // TODO add your handling code here:
+Loopa.openWebpage("https://drive.google.com/file/d/0B6qRs1HbJBrdR2JWNU9BZ3VaNlE/view?usp=sharing");        // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
 

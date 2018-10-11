@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication21;
+package loopa.gui;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import loopa.InvertedBuilder;
+import loopa.Loopa;
+import loopa.Searcher;
 import javax.swing.JOptionPane;
 
 /**
@@ -35,7 +38,8 @@ public class SearchPanel extends javax.swing.JPanel {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents()
+    {
 
         jButton3 = new javax.swing.JButton();
         queryBox = new javax.swing.JTextField();
@@ -64,15 +68,19 @@ public class SearchPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(1200, 650));
 
-        queryBox.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        queryBox.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 queryBoxActionPerformed(evt);
             }
         });
 
         querySearchButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/search1.png"))); // NOI18N
-        querySearchButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        querySearchButton.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 querySearchButtonActionPerformed(evt);
             }
         });
@@ -83,24 +91,30 @@ public class SearchPanel extends javax.swing.JPanel {
 
         result2button.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         result2button.setText("http://www.port.ac.uk/staffessentials/");
-        result2button.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        result2button.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 result2buttonActionPerformed(evt);
             }
         });
 
         result3button.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         result3button.setText("http://www.port.ac.uk/why-portsmouth/");
-        result3button.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        result3button.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 result3buttonActionPerformed(evt);
             }
         });
 
         result4button.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         result4button.setText("http://www.port.ac.uk/application-fees-and-funding/");
-        result4button.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        result4button.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 result4buttonActionPerformed(evt);
             }
         });
@@ -119,16 +133,20 @@ public class SearchPanel extends javax.swing.JPanel {
 
         result5button.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         result5button.setText("http://www.port.ac.uk");
-        result5button.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        result5button.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 result5buttonActionPerformed(evt);
             }
         });
 
         result1button.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         result1button.setText("http://www.port.ac.uk");
-        result1button.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        result1button.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 result1buttonActionPerformed(evt);
             }
         });
@@ -138,8 +156,10 @@ public class SearchPanel extends javax.swing.JPanel {
 
         prev.setBackground(java.awt.Color.white);
         prev.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/left.png"))); // NOI18N
-        prev.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        prev.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 prevActionPerformed(evt);
             }
         });
@@ -147,8 +167,10 @@ public class SearchPanel extends javax.swing.JPanel {
         next.setBackground(java.awt.Color.white);
         next.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/right.png"))); // NOI18N
         next.setToolTipText("");
-        next.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        next.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 nextActionPerformed(evt);
             }
         });
@@ -219,8 +241,10 @@ public class SearchPanel extends javax.swing.JPanel {
 
         clearButton.setBackground(new java.awt.Color(255, 255, 255));
         clearButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/clearButton.png"))); // NOI18N
-        clearButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        clearButton.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 clearButtonActionPerformed(evt);
             }
         });
@@ -314,7 +338,7 @@ public class SearchPanel extends javax.swing.JPanel {
     }//GEN-LAST:event_querySearchButtonActionPerformed
 
     private void result5buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_result5buttonActionPerformed
- NewLoopa.openWebpage(result5button.getText());       // TODO add your handling code here:
+ Loopa.openWebpage(result5button.getText());       // TODO add your handling code here:
     }//GEN-LAST:event_result5buttonActionPerformed
 
     private void queryBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_queryBoxActionPerformed
@@ -330,19 +354,19 @@ resultsPanel.setVisible(false);
     }//GEN-LAST:event_clearButtonActionPerformed
 
     private void result2buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_result2buttonActionPerformed
-NewLoopa.openWebpage(result2button.getText());        // TODO add your handling code here:
+Loopa.openWebpage(result2button.getText());        // TODO add your handling code here:
     }//GEN-LAST:event_result2buttonActionPerformed
 
     private void result3buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_result3buttonActionPerformed
-NewLoopa.openWebpage(result3button.getText());        // TODO add your handling code here:
+Loopa.openWebpage(result3button.getText());        // TODO add your handling code here:
     }//GEN-LAST:event_result3buttonActionPerformed
 
     private void result4buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_result4buttonActionPerformed
-NewLoopa.openWebpage(result4button.getText());        // TODO add your handling code here:
+Loopa.openWebpage(result4button.getText());        // TODO add your handling code here:
     }//GEN-LAST:event_result4buttonActionPerformed
 
     private void result1buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_result1buttonActionPerformed
-NewLoopa.openWebpage(result1button.getText()); 
+Loopa.openWebpage(result1button.getText()); 
     }//GEN-LAST:event_result1buttonActionPerformed
 
     private void nextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextActionPerformed

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication21;
+package loopa.gui;
 
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -48,7 +48,8 @@ public class AdvancedSettingsPanel extends javax.swing.JPanel {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents()
+    {
 
         jPanel1 = new javax.swing.JPanel();
         advancedSettingsLabel = new javax.swing.JLabel();
@@ -68,15 +69,19 @@ public class AdvancedSettingsPanel extends javax.swing.JPanel {
         advancedSettingsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/advanancedSettingsTitle.png"))); // NOI18N
 
         helpButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/helpButton5.png"))); // NOI18N
-        helpButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        helpButton.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 helpButtonActionPerformed(evt);
             }
         });
 
         backButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/backButton.png"))); // NOI18N
-        backButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        backButton.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 backButtonActionPerformed(evt);
             }
         });

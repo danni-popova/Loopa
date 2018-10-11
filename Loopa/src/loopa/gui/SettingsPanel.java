@@ -3,10 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication21;
+package loopa.gui;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import loopa.Searcher;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
@@ -35,7 +36,8 @@ public class SettingsPanel extends javax.swing.JPanel {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents()
+    {
 
         categoriesButtonGroup = new javax.swing.ButtonGroup();
         worldOrUk = new javax.swing.ButtonGroup();
@@ -75,14 +77,15 @@ public class SettingsPanel extends javax.swing.JPanel {
 
         checkURLLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/advSearchCheckLabel.png"))); // NOI18N
 
-        urlTextBox.setBackground(java.awt.Color.white);
         urlTextBox.setFont(new java.awt.Font("Cantarell", 0, 14)); // NOI18N
         urlTextBox.setText("http://www.example.com");
 
         checkURLButton.setBackground(java.awt.Color.white);
         checkURLButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/checkButton.png"))); // NOI18N
-        checkURLButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        checkURLButton.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 checkURLButtonActionPerformed(evt);
             }
         });
@@ -92,22 +95,20 @@ public class SettingsPanel extends javax.swing.JPanel {
 
         makeCollectionLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/makeCollectionLabel.png"))); // NOI18N
 
-        url3.setBackground(java.awt.Color.white);
         url3.setText("http://bbc.co.uk");
 
-        url1.setBackground(java.awt.Color.white);
         url1.setText("http://www.port.ac.uk");
 
-        url2.setBackground(java.awt.Color.white);
         url2.setText("http://www.cnn.com");
 
-        url4.setBackground(java.awt.Color.white);
         url4.setText("http://www.wikipedia.com");
 
         crawlButton.setBackground(java.awt.Color.white);
         crawlButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/goButton.png"))); // NOI18N
-        crawlButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        crawlButton.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 crawlButtonActionPerformed(evt);
             }
         });
@@ -145,8 +146,10 @@ public class SettingsPanel extends javax.swing.JPanel {
         readyLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/making2.png"))); // NOI18N
 
         switchCollectionButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/switch1.png"))); // NOI18N
-        switchCollectionButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        switchCollectionButton.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 switchCollectionButtonActionPerformed(evt);
             }
         });
@@ -319,12 +322,6 @@ public class SettingsPanel extends javax.swing.JPanel {
         readyLabel.setVisible(true);
         readyLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/making2.png"))); // NOI18N
         
-        if(stopWordsCheckBox.isSelected())
-        {TextAnalyser.useStopWords = false;}
-        
-        if(excludeNumbersCheckBox.isSelected())
-        {TextAnalyser.useNumbers = false;}
-        
         //display the correct images:
 
         orLabel.setVisible(false);
@@ -340,15 +337,6 @@ public class SettingsPanel extends javax.swing.JPanel {
 
     private void createNewCollection(String u1, String u2, String u3, String u4)
     {
-        WebCrawler.listOfTraversed.clear();
-        WebCrawler.listOfPending.clear();
-    WebCrawler.listOfPending.add(u1);
-    WebCrawler.listOfPending.add(u2);
-    WebCrawler.listOfPending.add(u3);
-    WebCrawler.listOfPending.add(u4);
-    WebCrawler.crawl(WebCrawler.listOfPending.remove(0));
-    InvertedBuilder.mapIB.clear();
-    InvertedBuilder.createMap(WebCrawler.listOfTraversed);
     
     }
   
