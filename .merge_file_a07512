@@ -246,7 +246,7 @@
     <Component class="javax.swing.JLabel" name="checkURLLabel">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/advSearchCheckLabel.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/advSearchCheckLabel.png"/>
         </Property>
       </Properties>
     </Component>
@@ -264,7 +264,7 @@
           <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/checkButton.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/checkButton.png"/>
         </Property>
       </Properties>
       <Events>
@@ -277,14 +277,14 @@
           <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/or.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/or.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="makeCollectionLabel">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/makeCollectionLabel.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/makeCollectionLabel.png"/>
         </Property>
       </Properties>
     </Component>
@@ -314,7 +314,7 @@
           <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/goButton.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/goButton.png"/>
         </Property>
       </Properties>
       <Events>
@@ -324,14 +324,14 @@
     <Component class="javax.swing.JLabel" name="categoriesLabel">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/categories.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/categories.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="categoriesIcon">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/categoriesNew.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/categoriesNew.png"/>
         </Property>
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
@@ -382,7 +382,7 @@
     <Component class="javax.swing.JLabel" name="otherSettingsLabel">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/otherSettings.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/otherSettings.png"/>
         </Property>
       </Properties>
     </Component>
@@ -403,14 +403,14 @@
     <Component class="javax.swing.JLabel" name="worldOrUkLabel">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/worldwideUK.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/worldwideUK.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="numbersLabel">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/numbers.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/numbers.png"/>
         </Property>
       </Properties>
     </Component>
@@ -419,7 +419,7 @@
     <Component class="javax.swing.JLabel" name="stopWordsLabel">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/stopwordsfinal.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/stopwordsfinal.png"/>
         </Property>
       </Properties>
     </Component>
@@ -430,14 +430,14 @@
     <Component class="javax.swing.JLabel" name="readyLabel">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/making2.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/making2.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="switchCollectionButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/switch1.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/switch1.png"/>
         </Property>
       </Properties>
       <Events>

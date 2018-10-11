@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package loopa;
+package loopa.gui;
+
+import loopa.Loopa;
 
 /**
  *
@@ -25,7 +27,8 @@ public class HomePanel extends javax.swing.JPanel {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents()
+    {
 
         jLabel2 = new javax.swing.JLabel();
         aboutButton = new javax.swing.JButton();
@@ -35,18 +38,20 @@ public class HomePanel extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/Logo.PNG"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/Logo.PNG"))); // NOI18N
 
-        aboutButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/aboutLoopa.png"))); // NOI18N
-        aboutButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        aboutButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/aboutLoopa.png"))); // NOI18N
+        aboutButton.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 aboutButtonActionPerformed(evt);
             }
         });
 
-        copyrightLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/copyright.png"))); // NOI18N
+        copyrightLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/copyright.png"))); // NOI18N
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/feedback.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/feedback.png"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -86,7 +91,7 @@ public class HomePanel extends javax.swing.JPanel {
 
     private void aboutButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aboutButtonActionPerformed
 
-NewLoopa.openWebpage("https://drive.google.com/drive/folders/0B6qRs1HbJBrdaHctQzFJZndxYU0?usp=sharing");
+Loopa.openWebpage("https://drive.google.com/drive/folders/0B6qRs1HbJBrdaHctQzFJZndxYU0?usp=sharing");
         // TODO add your handling code here:
     }//GEN-LAST:event_aboutButtonActionPerformed
 

@@ -109,7 +109,7 @@
     <Component class="javax.swing.JButton" name="querySearchButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/search1.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/search1.png"/>
         </Property>
       </Properties>
       <Events>
@@ -119,7 +119,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/tinyLogo.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/tinyLogo.png"/>
         </Property>
       </Properties>
     </Component>
@@ -339,7 +339,7 @@
               <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/loopa/graphics/left.png"/>
+              <Image iconType="3" name="/javaapplication21/graphics/left.png"/>
             </Property>
           </Properties>
           <Events>
@@ -352,7 +352,7 @@
               <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/loopa/graphics/right.png"/>
+              <Image iconType="3" name="/javaapplication21/graphics/right.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value=""/>
           </Properties>
@@ -368,7 +368,7 @@
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/clearButton.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/clearButton.png"/>
         </Property>
       </Properties>
       <Events>
@@ -378,21 +378,21 @@
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/queryQuestion1.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/queryQuestion1.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/results.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/results.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="noresultsLabel">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/loopa/graphics/noresults2.png"/>
+          <Image iconType="3" name="/javaapplication21/graphics/noresults2.png"/>
         </Property>
       </Properties>
     </Component>

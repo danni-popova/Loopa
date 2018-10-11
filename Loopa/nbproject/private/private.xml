@@ -11,11 +11,15 @@
         </file>
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
             <file>file:/D:/University/Loopa/Y2-SearchEngine/Loopa/src/loopa/WebCrawler.java</file>
             <file>file:/D:/University/Loopa/Y2-SearchEngine/Loopa/src/loopa/Settings.java</file>
             <file>file:/D:/University/Loopa/Y2-SearchEngine/Loopa/src/loopa/FileRead.java</file>
             <file>file:/D:/University/Loopa/Y2-SearchEngine/Loopa/src/loopa/Searcher.java</file>
         </group>
+=======
+        <group/>
+>>>>>>> 94cb1916bf72e9459248853712a3113606923170
     </open-files>
 </project-private>

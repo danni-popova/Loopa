@@ -81,14 +81,14 @@
         <Component class="javax.swing.JLabel" name="advancedSettingsLabel">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/loopa/graphics/advanancedSettingsTitle.png"/>
+              <Image iconType="3" name="/javaapplication21/graphics/advanancedSettingsTitle.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="helpButton">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/loopa/graphics/helpButton5.png"/>
+              <Image iconType="3" name="/javaapplication21/graphics/helpButton5.png"/>
             </Property>
           </Properties>
           <Events>
@@ -98,7 +98,7 @@
         <Component class="javax.swing.JButton" name="backButton">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/loopa/graphics/backButton.png"/>
+              <Image iconType="3" name="/javaapplication21/graphics/backButton.png"/>
             </Property>
           </Properties>
           <Events>

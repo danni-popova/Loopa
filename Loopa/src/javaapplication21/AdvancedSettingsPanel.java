@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package loopa;
+package javaapplication21;
 
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -65,16 +65,16 @@ public class AdvancedSettingsPanel extends javax.swing.JPanel {
         jPanel1.setMaximumSize(new java.awt.Dimension(1200, 150));
         jPanel1.setPreferredSize(new java.awt.Dimension(1200, 150));
 
-        advancedSettingsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/advanancedSettingsTitle.png"))); // NOI18N
+        advancedSettingsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/advanancedSettingsTitle.png"))); // NOI18N
 
-        helpButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/helpButton5.png"))); // NOI18N
+        helpButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/helpButton5.png"))); // NOI18N
         helpButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 helpButtonActionPerformed(evt);
             }
         });
 
-        backButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/backButton.png"))); // NOI18N
+        backButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/backButton.png"))); // NOI18N
         backButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backButtonActionPerformed(evt);
