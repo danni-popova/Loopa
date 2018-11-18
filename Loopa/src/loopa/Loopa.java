@@ -25,11 +25,13 @@ public class Loopa
             }
         });
 
-    }//main 
+    }
 
-    //open web page in browser for a given String (URL)
+
     public static void openWebpage(String urlString)
     {
+
+        //open web page in browser for a given String (URL)
         try
         {
             Desktop.getDesktop().browse(new URL(urlString).toURI());
@@ -39,4 +41,4 @@ public class Loopa
             e.printStackTrace();
         }
     }
-}//class
+}
