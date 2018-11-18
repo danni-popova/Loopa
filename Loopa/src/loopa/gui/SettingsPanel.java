@@ -19,14 +19,14 @@ import org.jsoup.select.Elements;
 public class SettingsPanel extends javax.swing.JPanel {
 
     public boolean crawled = false;
-    
+
     /**
      * Creates new form settingsPanel
      */
     public SettingsPanel() {
         initComponents();
-    readyLabel.setVisible(false);
-    switchCollectionButton.setVisible(false);
+        readyLabel.setVisible(false);
+        switchCollectionButton.setVisible(false);
     }
 
     /**
@@ -75,13 +75,13 @@ public class SettingsPanel extends javax.swing.JPanel {
         setMaximumSize(new java.awt.Dimension(1200, 500));
         setMinimumSize(new java.awt.Dimension(1200, 500));
 
-        checkURLLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/advSearchCheckLabel.png"))); // NOI18N
+        checkURLLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/advSearchCheckLabel.png"))); // NOI18N
 
         urlTextBox.setFont(new java.awt.Font("Cantarell", 0, 14)); // NOI18N
         urlTextBox.setText("http://www.example.com");
 
         checkURLButton.setBackground(java.awt.Color.white);
-        checkURLButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/checkButton.png"))); // NOI18N
+        checkURLButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/checkButton.png"))); // NOI18N
         checkURLButton.addActionListener(new java.awt.event.ActionListener()
         {
             public void actionPerformed(java.awt.event.ActionEvent evt)
@@ -91,9 +91,9 @@ public class SettingsPanel extends javax.swing.JPanel {
         });
 
         orLabel.setBackground(java.awt.Color.white);
-        orLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/or.png"))); // NOI18N
+        orLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/or.png"))); // NOI18N
 
-        makeCollectionLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/makeCollectionLabel.png"))); // NOI18N
+        makeCollectionLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/makeCollectionLabel.png"))); // NOI18N
 
         url3.setText("http://bbc.co.uk");
 
@@ -104,7 +104,7 @@ public class SettingsPanel extends javax.swing.JPanel {
         url4.setText("http://www.wikipedia.com");
 
         crawlButton.setBackground(java.awt.Color.white);
-        crawlButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/goButton.png"))); // NOI18N
+        crawlButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/goButton.png"))); // NOI18N
         crawlButton.addActionListener(new java.awt.event.ActionListener()
         {
             public void actionPerformed(java.awt.event.ActionEvent evt)
@@ -113,9 +113,9 @@ public class SettingsPanel extends javax.swing.JPanel {
             }
         });
 
-        categoriesLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/categories.png"))); // NOI18N
+        categoriesLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/categories.png"))); // NOI18N
 
-        categoriesIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/categoriesNew.png"))); // NOI18N
+        categoriesIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/categoriesNew.png"))); // NOI18N
         categoriesIcon.setToolTipText("");
 
         categoriesButtonGroup.add(allRbutton);
@@ -131,21 +131,21 @@ public class SettingsPanel extends javax.swing.JPanel {
 
         categoriesButtonGroup.add(gamesRbutton);
 
-        otherSettingsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/otherSettings.png"))); // NOI18N
+        otherSettingsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/otherSettings.png"))); // NOI18N
 
         worldOrUk.add(worldWideButton);
 
         worldOrUk.add(ukButton);
 
-        worldOrUkLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/worldwideUK.png"))); // NOI18N
+        worldOrUkLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/worldwideUK.png"))); // NOI18N
 
-        numbersLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/numbers.png"))); // NOI18N
+        numbersLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/numbers.png"))); // NOI18N
 
-        stopWordsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/stopwordsfinal.png"))); // NOI18N
+        stopWordsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/stopwordsfinal.png"))); // NOI18N
 
-        readyLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/making2.png"))); // NOI18N
+        readyLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/making2.png"))); // NOI18N
 
-        switchCollectionButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/switch1.png"))); // NOI18N
+        switchCollectionButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/switch1.png"))); // NOI18N
         switchCollectionButton.addActionListener(new java.awt.event.ActionListener()
         {
             public void actionPerformed(java.awt.event.ActionEvent evt)
@@ -157,197 +157,197 @@ public class SettingsPanel extends javax.swing.JPanel {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(checkURLLabel)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(131, 131, 131)
-                        .addComponent(checkURLButton))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(23, 23, 23)
-                        .addComponent(urlTextBox, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(orLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 288, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 37, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(crawlButton)
-                        .addGap(207, 207, 207))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                            .addComponent(makeCollectionLabel)
-                            .addGap(50, 50, 50))
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(layout.createSequentialGroup()
-                            .addComponent(url2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(57, 57, 57)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(url4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)
-                                .addComponent(url3, javax.swing.GroupLayout.Alignment.TRAILING))
-                            .addContainerGap()))))
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(switchCollectionButton, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(worldWideButton)
-                            .addComponent(excludeNumbersCheckBox)
-                            .addComponent(stopWordsCheckBox))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(worldOrUkLabel)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(ukButton))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(26, 26, 26)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(stopWordsLabel)
-                                    .addComponent(numbersLabel)))))
-                    .addComponent(otherSettingsLabel))
-                .addGap(73, 73, 73))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel10))
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(allRbutton)
-                                .addComponent(newsRbutton))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(computersRbutton)
-                                .addGap(1, 1, 1)))
-                        .addGap(35, 35, 35)
-                        .addComponent(categoriesIcon)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(checkURLLabel)
+                                        .addGroup(layout.createSequentialGroup()
+                                                .addGap(131, 131, 131)
+                                                .addComponent(checkURLButton))
+                                        .addGroup(layout.createSequentialGroup()
+                                                .addGap(23, 23, 23)
+                                                .addComponent(urlTextBox, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(orLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 288, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 37, Short.MAX_VALUE)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                                .addComponent(crawlButton)
+                                                .addGap(207, 207, 207))
+                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                                        .addComponent(makeCollectionLabel)
+                                                        .addGap(50, 50, 50))
+                                                .addGroup(layout.createSequentialGroup()
+                                                        .addComponent(url2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addGap(57, 57, 57)
+                                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                                                .addComponent(url4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)
+                                                                .addComponent(url3, javax.swing.GroupLayout.Alignment.TRAILING))
+                                                        .addContainerGap()))))
+                        .addGroup(layout.createSequentialGroup()
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(switchCollectionButton, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(layout.createSequentialGroup()
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                        .addComponent(worldWideButton)
+                                                        .addComponent(excludeNumbersCheckBox)
+                                                        .addComponent(stopWordsCheckBox))
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                                .addComponent(worldOrUkLabel)
+                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                                .addComponent(ukButton))
+                                                        .addGroup(layout.createSequentialGroup()
+                                                                .addGap(26, 26, 26)
+                                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                                        .addComponent(stopWordsLabel)
+                                                                        .addComponent(numbersLabel)))))
+                                        .addComponent(otherSettingsLabel))
+                                .addGap(73, 73, 73))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addComponent(jLabel10))
+                        .addGroup(layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(layout.createSequentialGroup()
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                                .addComponent(allRbutton)
+                                                                .addComponent(newsRbutton))
+                                                        .addGroup(layout.createSequentialGroup()
+                                                                .addComponent(computersRbutton)
+                                                                .addGap(1, 1, 1)))
+                                                .addGap(35, 35, 35)
+                                                .addComponent(categoriesIcon)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                        .addComponent(gamesRbutton)
+                                                        .addComponent(sportsRbutton)
+                                                        .addComponent(shoppingRbutton)))
+                                        .addComponent(categoriesLabel))
+                                .addGap(77, 77, 77)
+                                .addComponent(readyLabel)
+                                .addGap(0, 0, Short.MAX_VALUE))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(gamesRbutton)
-                            .addComponent(sportsRbutton)
-                            .addComponent(shoppingRbutton)))
-                    .addComponent(categoriesLabel))
-                .addGap(77, 77, 77)
-                .addComponent(readyLabel)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                    .addContainerGap(730, Short.MAX_VALUE)
-                    .addComponent(url1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(270, 270, 270)))
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                        .addContainerGap(730, Short.MAX_VALUE)
+                                        .addComponent(url1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(270, 270, 270)))
         );
         layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(orLabel)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(makeCollectionLabel)
-                        .addGap(18, 18, 18)
-                        .addComponent(url3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(14, 14, 14)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(url2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(url4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addComponent(crawlButton))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(checkURLLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(urlTextBox, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(checkURLButton)))
-                .addGap(13, 13, 13)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 14, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(readyLabel)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(categoriesLabel)
-                                        .addGap(14, 14, 14)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addComponent(shoppingRbutton)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                .addComponent(sportsRbutton)
-                                                .addGap(31, 31, 31)
-                                                .addComponent(gamesRbutton)
-                                                .addGap(12, 12, 12))
-                                            .addComponent(categoriesIcon)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addComponent(allRbutton)
-                                                .addGap(37, 37, 37)
-                                                .addComponent(newsRbutton)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                .addComponent(computersRbutton)))))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(switchCollectionButton, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(82, 82, 82))
-                            .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.TRAILING)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(otherSettingsLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(ukButton)
-                                    .addComponent(worldWideButton))
-                                .addGap(53, 53, 53)
-                                .addComponent(excludeNumbersCheckBox)
-                                .addGap(31, 31, 31)
-                                .addComponent(stopWordsCheckBox))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(worldOrUkLabel)
-                                .addGap(18, 18, 18)
-                                .addComponent(numbersLabel)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(stopWordsLabel)))
-                        .addContainerGap())))
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(71, 71, 71)
-                    .addComponent(url1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(494, Short.MAX_VALUE)))
+                                        .addComponent(orLabel)
+                                        .addGroup(layout.createSequentialGroup()
+                                                .addComponent(makeCollectionLabel)
+                                                .addGap(18, 18, 18)
+                                                .addComponent(url3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addGap(14, 14, 14)
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                                        .addComponent(url2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(url4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addGap(18, 18, 18)
+                                                .addComponent(crawlButton))
+                                        .addGroup(layout.createSequentialGroup()
+                                                .addComponent(checkURLLabel)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(urlTextBox, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                                .addComponent(checkURLButton)))
+                                .addGap(13, 13, 13)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                                .addGap(0, 14, Short.MAX_VALUE)
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                                        .addComponent(readyLabel)
+                                                                        .addGroup(layout.createSequentialGroup()
+                                                                                .addComponent(categoriesLabel)
+                                                                                .addGap(14, 14, 14)
+                                                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                                                                        .addGroup(layout.createSequentialGroup()
+                                                                                                .addComponent(shoppingRbutton)
+                                                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                                                                .addComponent(sportsRbutton)
+                                                                                                .addGap(31, 31, 31)
+                                                                                                .addComponent(gamesRbutton)
+                                                                                                .addGap(12, 12, 12))
+                                                                                        .addComponent(categoriesIcon)
+                                                                                        .addGroup(layout.createSequentialGroup()
+                                                                                                .addComponent(allRbutton)
+                                                                                                .addGap(37, 37, 37)
+                                                                                                .addComponent(newsRbutton)
+                                                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                                                                .addComponent(computersRbutton)))))
+                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                                .addComponent(switchCollectionButton, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                .addGap(82, 82, 82))
+                                                        .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.TRAILING)))
+                                        .addGroup(layout.createSequentialGroup()
+                                                .addComponent(otherSettingsLabel)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                        .addGroup(layout.createSequentialGroup()
+                                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                                        .addComponent(ukButton)
+                                                                        .addComponent(worldWideButton))
+                                                                .addGap(53, 53, 53)
+                                                                .addComponent(excludeNumbersCheckBox)
+                                                                .addGap(31, 31, 31)
+                                                                .addComponent(stopWordsCheckBox))
+                                                        .addGroup(layout.createSequentialGroup()
+                                                                .addComponent(worldOrUkLabel)
+                                                                .addGap(18, 18, 18)
+                                                                .addComponent(numbersLabel)
+                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                                .addComponent(stopWordsLabel)))
+                                                .addContainerGap())))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(layout.createSequentialGroup()
+                                        .addGap(71, 71, 71)
+                                        .addComponent(url1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addContainerGap(494, Short.MAX_VALUE)))
         );
     }// </editor-fold>//GEN-END:initComponents
 
     private void crawlButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_crawlButtonActionPerformed
-        
+
         readyLabel.setVisible(true);
-        readyLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/making2.png"))); // NOI18N
-        
+        readyLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/making2.png"))); // NOI18N
+
         //display the correct images:
 
         orLabel.setVisible(false);
-        
-        
+
+
         createNewCollection(url1.getText(), url2.getText(), url3.getText(), url4.getText());
-        
-        readyLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/ready.png")));
+
+        readyLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/ready.png")));
         switchCollectionButton.setVisible(true);
-        
+
 // TODO add your handling code here:
     }//GEN-LAST:event_crawlButtonActionPerformed
 
     private void createNewCollection(String u1, String u2, String u3, String u4)
     {
-    
+
     }
-  
+
     private void switchCollectionButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_switchCollectionButtonActionPerformed
-        
+
         Searcher.source = "all";
-        
+
         readyLabel.setVisible(false);
-    
+
         orLabel.setVisible(true);
-    
+
         switchCollectionButton.setVisible(false);
 
     }//GEN-LAST:event_switchCollectionButtonActionPerformed
@@ -355,63 +355,63 @@ public class SettingsPanel extends javax.swing.JPanel {
     private void checkURLButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_checkURLButtonActionPerformed
 
         if(checkRobots(urlTextBox.getText()).equals("allowed"))
-        {orLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/allowsCrawlers.png")));}
-        else 
+        {orLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/allowsCrawlers.png")));}
+        else
         {
-        orLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/noCrawlersAllowed.png")));
+            orLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/noCrawlersAllowed.png")));
         }
 
 // TODO add your handling code here:
     }//GEN-LAST:event_checkURLButtonActionPerformed
 
-     public String checkRobots(String url)
-             
+    public String checkRobots(String url)
+
     {
         String result = "";
         String robotsURL;
-        
-    if(!url.endsWith("/"))
-    {robotsURL = url.concat("/robots.txt");}
-    else 
-    {
-    robotsURL = url.concat("robots.txt");
-    }
+
+        if(!url.endsWith("/"))
+        {robotsURL = url.concat("/robots.txt");}
+        else
+        {
+            robotsURL = url.concat("robots.txt");
+        }
 
 //connect to robots.txt
-try{
-     Document doc = Jsoup.connect(robotsURL).get();
-     Elements bodyOf = doc.select("body");
-     String robot = bodyOf.text();
-    StringBuilder txt = new StringBuilder (); 
-    for (int i = robot.indexOf("User-agent: *"); i < robot.length(); i++)
-    {
-    txt.append(robot.charAt(i));
-    }
-    String text = txt.toString();
-    String [] split = text.split("Disallow: "); 
-    ArrayList<String> l = new ArrayList<>();
-    l.addAll(Arrays.asList(split));
-    l.remove(0);
-    for (int i = 0; i<l.size(); i++)
-    { 
-    l.set(i, url.concat(l.get(i)));
-    }
-    
-    
-    
-    if(l.get(0).equals(robotsURL))
-    {
-    result = "not allowed";
-    }
-    else result = "allowed";
-    
- }//try
-catch (Exception e)
-    {
-    result = "allowed";
-    }
-return result;
- }//getRobots
+        try{
+            Document doc = Jsoup.connect(robotsURL).get();
+            Elements bodyOf = doc.select("body");
+            String robot = bodyOf.text();
+            StringBuilder txt = new StringBuilder ();
+            for (int i = robot.indexOf("User-agent: *"); i < robot.length(); i++)
+            {
+                txt.append(robot.charAt(i));
+            }
+            String text = txt.toString();
+            String [] split = text.split("Disallow: ");
+            ArrayList<String> l = new ArrayList<>();
+            l.addAll(Arrays.asList(split));
+            l.remove(0);
+            for (int i = 0; i<l.size(); i++)
+            {
+                l.set(i, url.concat(l.get(i)));
+            }
+
+
+
+            if(l.get(0).equals(robotsURL))
+            {
+                result = "not allowed";
+            }
+            else result = "allowed";
+
+        }//try
+        catch (Exception e)
+        {
+            result = "allowed";
+        }
+        return result;
+    }//getRobots
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JRadioButton allRbutton;

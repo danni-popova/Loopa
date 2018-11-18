@@ -15,30 +15,30 @@ import java.awt.GridBagLayout;
 public class AdvancedSettingsPanel extends javax.swing.JPanel {
 
     GridBagLayout grid = new GridBagLayout();
-    
+
     HelpPanel helpPanel;
     SettingsPanel settingsPanel;
-    
+
     public AdvancedSettingsPanel() {
         initComponents();
-    
-        
+
+
         helpPanel = new HelpPanel();
         settingsPanel = new SettingsPanel();
-        
-        
-        
+
+
+
         advancedSettingsPanel.setLayout(grid);
         GridBagConstraints gc = new GridBagConstraints();
         gc.gridy = 0;
         gc.gridx = 0;
         advancedSettingsPanel.add(helpPanel, gc);
         advancedSettingsPanel.add(settingsPanel, gc);
-        
+
         helpPanel.setVisible(false);
         settingsPanel.setVisible(true);
         backButton.setVisible(false);
-    
+
     }
 
     /**
@@ -66,9 +66,9 @@ public class AdvancedSettingsPanel extends javax.swing.JPanel {
         jPanel1.setMaximumSize(new java.awt.Dimension(1200, 150));
         jPanel1.setPreferredSize(new java.awt.Dimension(1200, 150));
 
-        advancedSettingsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/advanancedSettingsTitle.png"))); // NOI18N
+        advancedSettingsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/advanancedSettingsTitle.png"))); // NOI18N
 
-        helpButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/helpButton5.png"))); // NOI18N
+        helpButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/helpButton5.png"))); // NOI18N
         helpButton.addActionListener(new java.awt.event.ActionListener()
         {
             public void actionPerformed(java.awt.event.ActionEvent evt)
@@ -77,7 +77,7 @@ public class AdvancedSettingsPanel extends javax.swing.JPanel {
             }
         });
 
-        backButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/backButton.png"))); // NOI18N
+        backButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/backButton.png"))); // NOI18N
         backButton.addActionListener(new java.awt.event.ActionListener()
         {
             public void actionPerformed(java.awt.event.ActionEvent evt)
@@ -89,27 +89,27 @@ public class AdvancedSettingsPanel extends javax.swing.JPanel {
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(404, 404, 404)
-                .addComponent(advancedSettingsLabel)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 194, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(backButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(helpButton, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(51, 51, 51))))
+                jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(404, 404, 404)
+                                .addComponent(advancedSettingsLabel)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 194, Short.MAX_VALUE)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(backButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                                .addComponent(helpButton, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addGap(51, 51, 51))))
         );
         jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(advancedSettingsLabel)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(backButton, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(helpButton, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 12, Short.MAX_VALUE))
+                jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(advancedSettingsLabel)
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(backButton, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(helpButton, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 12, Short.MAX_VALUE))
         );
 
         add(jPanel1, java.awt.BorderLayout.PAGE_START);
@@ -120,12 +120,12 @@ public class AdvancedSettingsPanel extends javax.swing.JPanel {
         javax.swing.GroupLayout advancedSettingsPanelLayout = new javax.swing.GroupLayout(advancedSettingsPanel);
         advancedSettingsPanel.setLayout(advancedSettingsPanelLayout);
         advancedSettingsPanelLayout.setHorizontalGroup(
-            advancedSettingsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1200, Short.MAX_VALUE)
+                advancedSettingsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 1200, Short.MAX_VALUE)
         );
         advancedSettingsPanelLayout.setVerticalGroup(
-            advancedSettingsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 500, Short.MAX_VALUE)
+                advancedSettingsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 500, Short.MAX_VALUE)
         );
 
         add(advancedSettingsPanel, java.awt.BorderLayout.CENTER);
@@ -136,7 +136,7 @@ public class AdvancedSettingsPanel extends javax.swing.JPanel {
         settingsPanel.setVisible(false);
         backButton.setVisible(true);
         helpButton.setVisible(false);
-        advancedSettingsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/usefulInfo.png")));
+        advancedSettingsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/usefulInfo.png")));
 // TODO add your handling code here:
     }//GEN-LAST:event_helpButtonActionPerformed
 
@@ -145,7 +145,7 @@ public class AdvancedSettingsPanel extends javax.swing.JPanel {
         settingsPanel.setVisible(true);
         backButton.setVisible(false);
         helpButton.setVisible(true);// TODO add your handling code here:
-        advancedSettingsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/advanancedSettingsTitle.png")));
+        advancedSettingsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/advanancedSettingsTitle.png")));
     }//GEN-LAST:event_backButtonActionPerformed
 
 

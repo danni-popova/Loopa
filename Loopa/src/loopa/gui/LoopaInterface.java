@@ -15,24 +15,24 @@ import java.awt.GridBagLayout;
 public class LoopaInterface extends javax.swing.JFrame {
 
     GridBagLayout grid = new GridBagLayout();
-    
-     HomePanel homePanel; 
-     SearchPanel searchPanel; 
-     AdvancedSettingsPanel advSettingsPanel;
-   
-    
-    
+
+    HomePanel homePanel;
+    SearchPanel searchPanel;
+    AdvancedSettingsPanel advSettingsPanel;
+
+
+
     public LoopaInterface() {
-        
+
         //Setting up the "Home" , "Search"  panels 
-        
+
         initComponents();
         this.setLocationRelativeTo(null);
         homePanel = new HomePanel();
         searchPanel = new SearchPanel();
         advSettingsPanel = new AdvancedSettingsPanel();
-        
-        
+
+
         changingPanel.setLayout(grid);
         GridBagConstraints gc = new GridBagConstraints();
         gc.gridy = 0;
@@ -40,14 +40,14 @@ public class LoopaInterface extends javax.swing.JFrame {
         changingPanel.add(homePanel, gc);
         changingPanel.add(searchPanel, gc);
         changingPanel.add(advSettingsPanel, gc);
-        
-        
-        
+
+
+
         homePanel.setVisible(true);
         searchPanel.setVisible(false);
         advSettingsPanel.setVisible(false);
-       
-        
+
+
     }
 
     /**
@@ -73,7 +73,7 @@ public class LoopaInterface extends javax.swing.JFrame {
         navigationPanel.setBackground(new java.awt.Color(255, 255, 255));
         navigationPanel.setPreferredSize(new java.awt.Dimension(1200, 150));
 
-        homeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/home.PNG"))); // NOI18N
+        homeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/home.PNG"))); // NOI18N
         homeButton.addActionListener(new java.awt.event.ActionListener()
         {
             public void actionPerformed(java.awt.event.ActionEvent evt)
@@ -82,7 +82,7 @@ public class LoopaInterface extends javax.swing.JFrame {
             }
         });
 
-        searchButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/search.PNG"))); // NOI18N
+        searchButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/search.PNG"))); // NOI18N
         searchButton.addActionListener(new java.awt.event.ActionListener()
         {
             public void actionPerformed(java.awt.event.ActionEvent evt)
@@ -91,7 +91,7 @@ public class LoopaInterface extends javax.swing.JFrame {
             }
         });
 
-        advSettingsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/advanancedSettingsButton.png"))); // NOI18N
+        advSettingsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/advanancedSettingsButton.png"))); // NOI18N
         advSettingsButton.addActionListener(new java.awt.event.ActionListener()
         {
             public void actionPerformed(java.awt.event.ActionEvent evt)
@@ -100,7 +100,7 @@ public class LoopaInterface extends javax.swing.JFrame {
             }
         });
 
-        exitButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication21/graphics/exit.PNG"))); // NOI18N
+        exitButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loopa/graphics/exit.PNG"))); // NOI18N
         exitButton.addActionListener(new java.awt.event.ActionListener()
         {
             public void actionPerformed(java.awt.event.ActionEvent evt)
@@ -112,28 +112,28 @@ public class LoopaInterface extends javax.swing.JFrame {
         javax.swing.GroupLayout navigationPanelLayout = new javax.swing.GroupLayout(navigationPanel);
         navigationPanel.setLayout(navigationPanelLayout);
         navigationPanelLayout.setHorizontalGroup(
-            navigationPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(navigationPanelLayout.createSequentialGroup()
-                .addGap(40, 40, 40)
-                .addComponent(homeButton, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(searchButton, javax.swing.GroupLayout.PREFERRED_SIZE, 311, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(advSettingsButton, javax.swing.GroupLayout.PREFERRED_SIZE, 295, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(exitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 203, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(58, Short.MAX_VALUE))
+                navigationPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(navigationPanelLayout.createSequentialGroup()
+                                .addGap(40, 40, 40)
+                                .addComponent(homeButton, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(searchButton, javax.swing.GroupLayout.PREFERRED_SIZE, 311, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(advSettingsButton, javax.swing.GroupLayout.PREFERRED_SIZE, 295, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(exitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 203, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addContainerGap(58, Short.MAX_VALUE))
         );
         navigationPanelLayout.setVerticalGroup(
-            navigationPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, navigationPanelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(navigationPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(exitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(homeButton, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(advSettingsButton, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(searchButton, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(23, 23, 23))
+                navigationPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, navigationPanelLayout.createSequentialGroup()
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(navigationPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(exitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(homeButton, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(advSettingsButton, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(searchButton, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(23, 23, 23))
         );
 
         getContentPane().add(navigationPanel, java.awt.BorderLayout.PAGE_END);
@@ -143,12 +143,12 @@ public class LoopaInterface extends javax.swing.JFrame {
         javax.swing.GroupLayout changingPanelLayout = new javax.swing.GroupLayout(changingPanel);
         changingPanel.setLayout(changingPanelLayout);
         changingPanelLayout.setHorizontalGroup(
-            changingPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1209, Short.MAX_VALUE)
+                changingPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 1209, Short.MAX_VALUE)
         );
         changingPanelLayout.setVerticalGroup(
-            changingPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 650, Short.MAX_VALUE)
+                changingPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 650, Short.MAX_VALUE)
         );
 
         getContentPane().add(changingPanel, java.awt.BorderLayout.CENTER);

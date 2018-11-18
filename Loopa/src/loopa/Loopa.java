@@ -13,7 +13,7 @@ public class Loopa
         WebCrawler webCrawler = new WebCrawler("http://bbc.co.uk");
         
         // Create term map 
-        //InvertedBuilder.createMap(WebCrawler.listOfTraversed);
+        // InvertedBuilder.createMap(WebCrawler.listOfTraversed);
         
         // Create and display the form
         java.awt.EventQueue.invokeLater(new Runnable()
